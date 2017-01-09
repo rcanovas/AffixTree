@@ -62,8 +62,17 @@ To be able to compile the atds codes:
  				6 | SCAT
 		<sample_file>: A file containing a set of sampled reads to be queried , separed by '\0' 
                               (see the GetSamplePhrases.py code as example of how to generate these files)
+			  
+		output:  Times per operation
 
-		
-
-
+		Example: ./testSearch ./data/file.acat 2 ./sample/file_sample  
+		output:  
+		        Time avg per suffix_children operation: 1000000 us
+			Time avg per prefix children operation: 1000000 us
+			Time avg per Degree operation: 1000000 us
+			Time avg per Slink operation: 1000000 us
+			Time avg per backward forward: 1000000 us
+			
+			
+			
 Note: These codes assume that the computer have enough RAM memory to read and store the complete input.

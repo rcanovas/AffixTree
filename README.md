@@ -50,6 +50,7 @@ To be able to compile the atds codes:
         
 
 -[testSearch] (https://github.com/tests):
+
 	Use: ./testSearch <index_file_name> index_id  <sample_file>
 		<file_name>: Name of the compressed index file to be tested 
 		index_id: 	0 | BidWT

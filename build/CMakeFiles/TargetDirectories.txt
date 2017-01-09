@@ -1,0 +1,4 @@
+/home/rcanovas/Desktop/atds/build/CMakeFiles/edit_cache.dir
+/home/rcanovas/Desktop/atds/build/CMakeFiles/rebuild_cache.dir
+/home/rcanovas/Desktop/atds/build/CMakeFiles/testSearch.dir
+/home/rcanovas/Desktop/atds/build/CMakeFiles/createIndex.dir

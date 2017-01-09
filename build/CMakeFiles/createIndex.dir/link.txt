@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/createIndex.dir/test/createIndex.cpp.o  -o createIndex  -L/home/rcanovas/lib -rdynamic -lsdsl -ldivsufsort -ldivsufsort64 -Wl,-rpath,/home/rcanovas/lib 

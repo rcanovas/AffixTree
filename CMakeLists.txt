@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.3)
 project(AffixTree)
 
+#unset if you want to do debuging 
+set(CMAKE_BUILD_TYPE "Release")
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 #modify these directories to include sdsl library location

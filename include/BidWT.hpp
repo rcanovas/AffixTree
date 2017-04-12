@@ -209,7 +209,7 @@ namespace atds {
             //not implemented
             char_type symb;
             size_type len = 0, d = 0;
-            for (size_type c = sigma - 1; c > 0; c--) {
+            for (size_type c = sigma - 1; c > 0; c--) {  //this could be improve by using the information of the bwt
                 node_type t = v;
                 symb = comp2char[c];
                 len = forward_search(symb, t);
@@ -224,7 +224,7 @@ namespace atds {
             std::vector<node_type> pref_ch;
             char_type symb;
             size_type len = 0, d = 0;
-            for (size_type c = sigma - 1; c > 0; c--) {
+            for (size_type c = sigma - 1; c > 0; c--) {  //this could be improve by using the information of the bwt
                 node_type t = v;
                 symb = comp2char[c];
                 len = backward_search(symb, t);

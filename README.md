@@ -31,7 +31,7 @@ To be able to compile the atds codes:
 
 ## Methods
 
--[createIndex] (https://github.com/tests):
+-[createIndex]:
 
 	Use: ./createIndex <file_name> <tmp_locationopt> index_id
       		<file_name>: Name of the file to be use to create the required data structure 
@@ -49,7 +49,7 @@ To be able to compile the atds codes:
 		output:  file.acat
         
 
--[testSearch] (https://github.com/tests):
+-[testSearch]:
 
 	Use: ./testSearch <index_file_name> index_id  <sample_file>
 		<file_name>: Name of the compressed index file to be tested 

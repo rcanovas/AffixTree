@@ -24,7 +24,7 @@ create the data structure using the default templates.
 To be able to compile the atds codes: 
 - Install sdsl-lite. Follow the installation guide here: (https://github.com/simongog/sdsl-lite)
 - Modify the location of the sdsl library in the CMakeLists.txt if necessary.
-- Go to the build folder and run: 
+- Create the build folder and run: 
 	- cmake ..
 	- make
 
